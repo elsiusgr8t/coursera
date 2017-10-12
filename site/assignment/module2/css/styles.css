@@ -83,7 +83,7 @@ span{
     width: 100%;
   }
 }
-/********** Targetting Small and xm  devices only ****mobile****** /
+/********** Targetting Small and xm  devices only ****mobile******/
 @media(max-width: 767px) {
   .col-sm-12 {
     float: left
