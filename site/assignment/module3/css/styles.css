@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+	color: #000;
+}
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:19px;
+}
+
+/*STING THE NAVBAR MENU*/
+#header-nav{
+	background-color: #E57B27;
+}
+.navbar-header{
+	width: 100%;
+	padding: 0 !important;
+}
+.navbar-brand{
+	width: 70%;
+	height: auto;
+	padding-left: 50px !important;
+	margin-top: -15px;
+}
+.navbar-brand a{
+	text-decoration: none;
+	color: #000;
+	vertical-align: center;
+}
+h1{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 175%;
+}
+
+button{
+	margin-top: 18px !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	height: 40px;
+	border: 1px solid #000 !important;
+}
+.navbar .navbar-nav>li>a{
+	color: #000;
+	font-size: 24px;
+	background-color: gold;
+}
+.navbar .navbar-nav>li:hover>a{
+	color: #fff;
+}
+.navbar-nav>li{
+	border-bottom: : 1px solid #000;
+	border-radius: 3px;
+}
+
+/*STYLING THE MAIN CONTENT*/
+
+.row{
+	padding:12px;
+}
+
+div.text-center{
+	padding-top: 10px;
+}
+.row .hold{
+	padding:12px;
+}
+.item{
+	background-color: gray;
+	margin-bottom: 20px;
+}
+.item p{
+	padding: 15px 25px;
+}
+/*MEDIA QUERY*/
+@media (min-width: 768px){
+	nav.navbar .container{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+@media (max-width: 767px){
+}
+.row .hold{
+/*	padding:20px;*/
+/*padding-left: 30px;
+padding-right: 30px;*/
+}
+	nav.navbar .container{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	h1{
+		font-size: 5vw;
+	}
+}
+
+
+
