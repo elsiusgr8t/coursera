@@ -79,11 +79,11 @@ div.text-center{
 	}
 }
 @media (max-width: 767px){
-}
+
 .row .hold{
-/*	padding:20px;*/
-/*padding-left: 30px;
-padding-right: 30px;*/
+	padding:20px;
+padding-left: 30px;
+padding-right: 30px;
 }
 	nav.navbar .container{
 		width: 100%;
